@@ -1,0 +1,34 @@
+
+#Created by Constraints Editor (xc6slx16-csg324-3) - 2014/11/09
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 10 ns HIGH 50%;
+
+NET "clr" LOC = "C4";
+NET "data_vld" LOC = "B8";
+NET "key_vld" LOC = "D9";
+NET "enc" LOC = "C9";
+
+NET "key[0]" LOC = "T10";
+NET "key[1]" LOC = "T9";
+NET "key[2]" LOC = "V9";
+NET "key[3]" LOC = "M8";
+NET "key[4]" LOC = "N8";
+NET "key[5]" LOC = "U8";
+NET "key[6]" LOC = "V8";
+NET "key[7]" LOC = "T5";
+
+NET "AN[3]" LOC = "P17";
+NET "AN[2]" LOC = "P18";
+NET "AN[1]" LOC = "N15";
+NET "AN[0]" LOC = "N16";
+NET "clk" LOC = "V10";
+
+NET "segment_a_i" LOC = "T17";
+NET "segment_b_i" LOC = "T18";
+NET "segment_c_i" LOC = "U17";
+NET "segment_d_i" LOC = "U18";
+NET "segment_e_i" LOC = "M14";
+NET "segment_f_i" LOC = "N14";
+NET "segment_g_i" LOC = "L14";
+NET "do_rdy" LOC = "U16";
+
