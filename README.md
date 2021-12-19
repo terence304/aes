@@ -1,1 +1,1 @@
-# AES's README
+# AES encryption VHDL source code
